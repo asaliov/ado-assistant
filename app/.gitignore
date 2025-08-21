@@ -1,0 +1,33 @@
+# Flutter-specific entries
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/ios/Runner.xcworkspace/
+/ios/Pods/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Web-specific
+/web/
+
+# Windows-specific
+/windows/
+
+# macOS-specific
+/macos/
+
+# Linux-specific
+/linux/
