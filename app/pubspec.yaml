@@ -1,0 +1,39 @@
+name: ado_assistant
+description: "Ado Assistent für Blinde – Cross‑Platform (Flutter) Voice‑First Assistenz mit Offline‑First Navigation, Hinderniserkennung und optionalen Online‑Boosts."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.3
+  shared_preferences: ^2.3.2
+  permission_handler: ^11.3.1
+  maplibre_gl: ^0.20.0
+  path_provider: ^2.1.4
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # App icon configuration (placeholder - actual icons would be added later)
+  # assets:
+  #   - images/app_icon.png
+  
+  # Generate app icons for different platforms
+  # flutter_launcher_icons:
+  #   android: true
+  #   ios: true
+  #   image_path: "assets/images/app_icon.png"
